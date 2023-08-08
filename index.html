@@ -1,13 +1,623 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="font-custom text-greyCustom">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/logo-small.png" />
     <link rel="stylesheet" href="./css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
     <script defer src="./js/script.js"></script>
-    <title>TechTrek Innovations</title>
+
+    <title>TechTrek &mdash; Navigating the Future of Technology</title>
   </head>
   <body>
-    <h1 class="text-black">Hello</h1>
+    <header class="flex items-center justify-between px-8 pt-4 pb-4 bg-black">
+      <a href="#" class="inline">
+        <img src="./img/logo-black.png" class="h-auto w-64" />
+      </a>
+      <nav>
+        <ul class="flex items-center gap-8 font-bold text-white">
+          <li>Our Services</li>
+          <li>About Us</li>
+          <li>Why Choose Us</li>
+          <li>
+            <div class="relative inline-block z-10 bg-black">
+              <a
+                class="inline-block border-primary border-2 px-6 py-4 rounded-2xl text-lg drop-shadow-md relative tracking-normal font-bold bg-black"
+                ><span
+                  class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+                  >Talk to our team</span
+                >
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="h-[calc(100vh)] relative bg-black overflow-hidden">
+        <div
+          class="max-w-7xl text-center absolute top-1/2 -translate-y-[50%] left-1/2 -translate-x-1/2 rounded-2xl p-8 text-white z-20"
+        >
+          <h1
+            class="text-7xl max-w-5xl mx-auto mb-4 font-bold leading-tight tracking-tight"
+          >
+            Empowering Businesses with Cutting Edge
+            <span
+              class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent inline-block drop-shadow-md relative"
+              >Tech Solutions
+            </span>
+          </h1>
+          <p class="text-lg max-w-3xl mx-auto mb-16 text-white/80">
+            Welcome to TechTrek Innovations, your gateway to cutting-edge
+            technological solutions that empower businesses to thrive in the
+            digital age.
+          </p>
+          <div class="relative inline-block z-10 bg-black">
+            <a
+              class="inline-block border-primary border-2 px-6 py-4 rounded-2xl text-lg drop-shadow-md relative tracking-normal font-bold bg-black"
+              ><span
+                class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+                >Talk to our team</span
+              >
+            </a>
+
+            <div
+              class="absolute bg-gradient-to-r from-primary to-secondary pb-[30%] blur-[20px] pr-[100%] top-0 left-0 -z-10"
+            ></div>
+          </div>
+        </div>
+        <!-- <div
+          class="absolute -z-10 -top-40 w-1/2 right-0 opacity-70 translate-y-2"
+        >
+          <img src="./img/binary-code-color.png" class="w-full blur-[4px]" />
+        </div> -->
+        <div
+          class="absolute z-10 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent blur-[5px]"
+        >
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+        </div>
+        <div
+          class="absolute z-10 bottom-0 right-0 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent blur-[5px] rotate-180 scaleY-[-1]"
+        >
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+          <p class="binary"></p>
+        </div>
+      </section>
+      <section class="max-w-7xl mx-auto mt-32 mb-64">
+        <div class="text-center uppercase font-bold text-primary mb-4">
+          Our Services
+        </div>
+        <h2
+          class="text-5xl text-center font-bold max-w-3xl mx-auto leading-tight mb-16 tracking-tight"
+        >
+          Transforming Visions into Reality with Innovative Solutions
+        </h2>
+        <div class="grid grid-cols-4 rounded-2xl gap-4">
+          <div class="px-6 py-8 bg-black/5 rounded-2xl">
+            <div class="inline-block bg-primary p-4 rounded-xl mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 640 512"
+                fill="white"
+                class="h-6 w-6"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"
+                />
+              </svg>
+            </div>
+
+            <h3 class="font-bold mb-2">Custom Software Development</h3>
+            <p>
+              Tailored software solutions designed to streamline your
+              operations, enhance efficiency, and drive productivity. From web
+              applications to mobile platforms, we transform your ideas into
+              reality.
+            </p>
+          </div>
+          <div class="px-6 py-8 bg-black/5 rounded-2xl">
+            <div class="inline-block bg-primary p-4 rounded-xl mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 640 512"
+                fill="white"
+                class="w-6 h-6"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M320 0c17.7 0 32 14.3 32 32V96H472c39.8 0 72 32.2 72 72V440c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72H288V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H208zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H304zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400zM264 256a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM48 224H64V416H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H576V224h16z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-bold mb-2">Artificial Intelligence</h3>
+            <p>
+              Harness the power of AI to unlock new insights, automate tasks,
+              and make data-driven decisions. Our AI solutions adapt and learn,
+              ensuring your business stays agile in a rapidly changing
+              landscape.
+            </p>
+          </div>
+          <div class="px-6 py-8 bg-black/5 rounded-2xl">
+            <div class="inline-block bg-primary p-4 rounded-xl mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 448 512"
+                fill="white"
+                class="w-6 h-6"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-bold mb-2">User Experience Design</h3>
+            <p>
+              Craft captivating user experiences that leave a lasting
+              impression. We blend creativity with functionality to create
+              interfaces that engage and delight your audience.
+            </p>
+          </div>
+          <div class="px-6 py-8 bg-black/5 rounded-2xl">
+            <div class="inline-block bg-primary p-4 rounded-xl mb-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="1em"
+                viewBox="0 0 512 512"
+                fill="white"
+                class="w-6 h-6"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"
+                />
+              </svg>
+            </div>
+            <h3 class="font-bold mb-2">Consulting and Strategy</h3>
+            <p>
+              Not sure where to start? Our expert consultants work closely with
+              you to formulate a comprehensive technology strategy aligned with
+              your business goals.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mb-32 bg-black pt-64 pb-64 relative overflow-hidden">
+        <!-- <div
+          class="absolute top-0 right-0  pb-[100%] bg-gradient-to-r from-primary to-secondary z-1 rounded-r-full blur-[200px]"
+        ></div> -->
+        <div
+          class="absolute top-0 right-0 w-1/4 pb-[100%] bg-gradient-to-r from-primary to-secondary z-0 rounded-r-full blur-[200px]"
+        ></div>
+        <div class="max-w-7xl mx-auto">
+          <div class="grid grid-cols-2 gap-8">
+            <div class="">
+              <div class="uppercase font-bold text-primary mb-4">About Us</div>
+              <h2
+                class="text-5xl font-bold max-w-3xl leading-tight mb-8 tracking-tight text-white z-20"
+              >
+                Your Technology
+                <span
+                  class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+                  >Partners</span
+                >
+              </h2>
+
+              <p class="text-tintPrimary text-lg z-20">
+                <span class="mb-4 block">
+                  At TechTrek, we're passionate about exploring the uncharted
+                  territories of technology.</span
+                >
+
+                <span class="mb-4 block"
+                  >Our team of skilled developers, designers, and visionaries
+                  collaborate to craft digital solutions that address your
+                  unique challenges.</span
+                >
+                <span class="block"
+                  >Whether you're a startup looking to establish your online
+                  presence or an established enterprise seeking to revitalize
+                  your digital strategy, we're here to guide you on your tech
+                  journey.</span
+                >
+              </p>
+            </div>
+            <div class="z-20 rounded-xl">
+              <img
+                src="./img/christina-wocintechchat-com-FVgECvTjlBQ-unsplash.jpg"
+                class="rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="max-w-7xl mx-auto mt-32 mb-64">
+        <div class="text-center uppercase font-bold text-primary mb-4">
+          Why Choose TechTrek
+        </div>
+        <h2
+          class="text-5xl text-center font-bold max-w-3xl mx-auto leading-tight mb-16 tracking-tight"
+        >
+          Discover TechTrek's Distinctive Excellence
+        </h2>
+        <div class="grid grid-cols-3 gap-4">
+          <div
+            class="bg-white p-8 rounded-2xl flex flex-col relative overflow-hidden border-2 border-primary"
+          >
+            <!-- <div
+              class="absolute pb-[10%] pr-[300%] bg-gradient-to-r from-primary to-secondary bottom-0 right-0 z-3 blur-[100px] translate-y-[10%]"
+            ></div> -->
+            <h3
+              class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-bold text-2xl mb-4 z-10"
+            >
+              Innovation at Heart
+            </h3>
+            <p class="text-shadeSecondary mb-8 z-10">
+              We thrive on pushing boundaries and embracing the latest
+              technologies to provide solutions that stand out.
+            </p>
+            <div class="mt-auto z-10">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                fill="black"
+                class="h-32 w-32 z-10"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2l0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4l0 0c19.8 27.1 39.7 54.4 49.2 86.2H272zM192 512c44.2 0 80-35.8 80-80V416H112v16c0 44.2 35.8 80 80 80zM112 176c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="bg-black p-8 rounded-2xl flex flex-col relative overflow-hidden"
+          >
+            <div
+              class="absolute pb-[10%] pr-[300%] bg-gradient-to-r from-primary to-secondary bottom-0 right-0 z-3 blur-[100px] translate-y-[10%]"
+            ></div>
+            <h3
+              class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-bold text-2xl mb-4 z-10"
+            >
+              Client-Centric Approach
+            </h3>
+            <p class="text-tintPrimary mb-8 z-10">
+              Your success is our success. We prioritize understanding your
+              needs and collaborating closely to achieve your vision
+            </p>
+            <div class="mt-auto z-10">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="white"
+                class="h-32 w-32 z-10"
+                viewBox="0 0 640 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="bg-white p-8 rounded-2xl flex flex-col relative overflow-hidden border-2 border-primary"
+          >
+            <!-- <div
+              class="absolute pb-[10%] pr-[300%] bg-gradient-to-r from-primary to-secondary bottom-0 right-0 z-3 blur-[100px] translate-y-[10%]"
+            ></div> -->
+            <h3
+              class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-bold text-2xl mb-4 z-10"
+            >
+              Experience and Expertise
+            </h3>
+            <p class="text-shadeSecondary mb-8 z-10">
+              Our team brings a wealth of experience across various industries,
+              ensuring we're equipped to tackle challenges of any scale.
+            </p>
+            <div class="mt-auto z-10">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="black"
+                class="h-32 w-32 z-10"
+                viewBox="0 0 640 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M320 32c-8.1 0-16.1 1.4-23.7 4.1L15.8 137.4C6.3 140.9 0 149.9 0 160s6.3 19.1 15.8 22.6l57.9 20.9C57.3 229.3 48 259.8 48 291.9v28.1c0 28.4-10.8 57.7-22.3 80.8c-6.5 13-13.9 25.8-22.5 37.6C0 442.7-.9 448.3 .9 453.4s6 8.9 11.2 10.2l64 16c4.2 1.1 8.7 .3 12.4-2s6.3-6.1 7.1-10.4c8.6-42.8 4.3-81.2-2.1-108.7C90.3 344.3 86 329.8 80 316.5V291.9c0-30.2 10.2-58.7 27.9-81.5c12.9-15.5 29.6-28 49.2-35.7l157-61.7c8.2-3.2 17.5 .8 20.7 9s-.8 17.5-9 20.7l-157 61.7c-12.4 4.9-23.3 12.4-32.2 21.6l159.6 57.6c7.6 2.7 15.6 4.1 23.7 4.1s16.1-1.4 23.7-4.1L624.2 182.6c9.5-3.4 15.8-12.5 15.8-22.6s-6.3-19.1-15.8-22.6L343.7 36.1C336.1 33.4 328.1 32 320 32zM128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.7 262.6 354.5 314c-11.1 4-22.8 6-34.5 6s-23.5-2-34.5-6L143.3 262.6 128 408z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-black pt-48 pb-64 relative overflow-hidden z-20">
+        <!-- <div
+          class="absolute top-0 right-0  pb-[100%] bg-gradient-to-r from-primary to-secondary z-1 rounded-r-full blur-[200px]"
+        ></div> -->
+        <div
+          class="absolute top-0 right-0 w-1/4 pb-[10%] pr-[100%] bg-gradient-to-r from-primary to-secondary -z-10 rounded-r-full blur-[200px]"
+        ></div>
+        <div class="max-w-7xl mx-auto z-40">
+          <h2 class="text-white text-7xl font-bold z-10 text-center mb-8">
+            Let's Start Your
+            <span
+              class="bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text"
+              >Journey</span
+            >
+          </h2>
+          <p class="text-tintPrimary text-center mb-16">
+            Ready to explore the possibilities? Whether you're looking to revamp
+            your online presence or embark on a digital transformation, TechTrek
+            Innovations is your trusted partner. Contact us today to begin your
+            tech journey with confidence.
+          </p>
+          <div class="text-center">
+            <div class="relative inline-block z-10 bg-black">
+              <a
+                class="inline-block border-primary border-2 px-6 py-4 rounded-2xl text-lg drop-shadow-md relative tracking-normal font-bold bg-black"
+                ><span
+                  class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+                  >Talk to our team</span
+                >
+              </a>
+
+              <div
+                class="absolute bg-gradient-to-r from-primary to-secondary pb-[30%] blur-[20px] pr-[100%] top-0 left-0 -z-10"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black pt-16 pb-32">
+      <div class="grid grid-cols-3 max-w-7xl mx-auto">
+        <div>
+          <a href="#" class="inline-block -translate-x-5 -translate-y-5">
+            <img src="./img/logo-black.png" class="h-auto w-64" />
+          </a>
+          <nav class="mb-4 -mt-5">
+            <ul class="flex gap-8">
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10"
+                    fill="white"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10"
+                    fill="white"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10"
+                    fill="white"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                    /></svg
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <p class="text-shadePrimary text-sm max-w-xs">
+            This company is fictional. This website is a part of Žiga Žunkovič's
+            portfolio
+          </p>
+        </div>
+        <div>
+          <p class="text-white font-bold mb-8">Contact Us</p>
+          <address class="not-italic text-white">
+            <p class="mb-8">123 Tech Avenue, Innovation City, TecLand</p>
+            <p>
+              <a href="(123) 456-7890" class="inline-block mb-2"
+                >(123) 456-7890</a
+              >
+              <br />
+              <a href="mailto:info@techtrekinnovations.com"
+                >info@techtrekinnovations.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <div class="text-white mb-8">
+          <p class="font-bold mb-8">Quick Menu</p>
+          <nav>
+            <ul class="flex flex-col gap-2">
+              <li>
+                <a href="#">Our Services</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Why Choose Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
