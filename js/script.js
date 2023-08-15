@@ -208,26 +208,51 @@ const scrollServiceEl = document.querySelector(".scroll-service");
 const scrollChooseUsEl = document.querySelector(".scroll-choose-us");
 const scrollAboutEl = document.querySelector(".scroll-about");
 
+const botAboutUsScrollEl = document.querySelector(".bot-about-us-scroll");
+const botChooseScroll = document.querySelector(".bot-choose-scroll");
+const botServiceScrollEl = document.querySelector(".bot-service-scroll");
+
 const ourServicesSectionEl = document.querySelector(".our-services-section");
 const whyChooseUsSectionEl = document.querySelector(".why-choose-us-section");
 
 scrollServiceEl.addEventListener("click", () => {
   gsap.to(window, {
-    duration: 2,
+    duration: 1,
     scrollTo: { y: ourServicesSectionEl, offsetY: 200 },
   });
 });
 
 scrollAboutEl.addEventListener("click", () => {
   gsap.to(window, {
-    duration: 2,
-    scrollTo: { y: aboutUsSectionEl, offsetY: 300 },
+    duration: 1,
+    scrollTo: { y: aboutUsSectionEl, offsetY: 0 },
   });
 });
 
 scrollChooseUsEl.addEventListener("click", () => {
   gsap.to(window, {
-    duration: 2,
+    duration: 1,
+    scrollTo: { y: whyChooseUsSectionEl, offsetY: 200 },
+  });
+});
+
+botServiceScrollEl.addEventListener("click", () => {
+  gsap.to(window, {
+    duration: 1,
+    scrollTo: { y: ourServicesSectionEl, offsetY: 200 },
+  });
+});
+
+botAboutUsScrollEl.addEventListener("click", () => {
+  gsap.to(window, {
+    duration: 1,
+    scrollTo: { y: aboutUsSectionEl, offsetY: 0 },
+  });
+});
+
+botChooseScroll.addEventListener("click", () => {
+  gsap.to(window, {
+    duration: 1,
     scrollTo: { y: whyChooseUsSectionEl, offsetY: 200 },
   });
 });
