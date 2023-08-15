@@ -6,6 +6,19 @@
 gsap.registerPlugin(TextPlugin, ScrollTrigger, ScrollToPlugin);
 
 // const binaryCodeTextEl = document.querySelectorAll(".binary");
+
+const mediaQuery = window.matchMedia("(max-width:700px)");
+const aboutCodeEl = document.querySelectorAll(".about-code");
+
+function handleMediaQueryChange(mediaQuery) {
+  if (mediaQuery.matches) {
+    aboutCodeEl.forEach((el) => {
+      el.classList.remove("binary-short");
+    });
+  }
+}
+
+handleMediaQueryChange(mediaQuery);
 const binaryCodeShortTextEl = document.querySelectorAll(".binary-short");
 
 function generateSequence(length) {
