@@ -5,10 +5,8 @@
 /////////////////////////////////////////////////////////////////////
 gsap.registerPlugin(TextPlugin, ScrollTrigger, ScrollToPlugin);
 
-const binaryCodeTextEl = document.querySelectorAll(".binary");
+// const binaryCodeTextEl = document.querySelectorAll(".binary");
 const binaryCodeShortTextEl = document.querySelectorAll(".binary-short");
-
-// const masterTl = gsap.timeline({ repeat: -1, yoyo: true });
 
 function generateSequence(length) {
   let sequence = "";
@@ -36,14 +34,14 @@ function addTextAnimation(el, dur, newVal, oldVal) {
   );
 }
 
-binaryCodeTextEl.forEach((el) => {
-  const randomDur = Math.floor(Math.random() * 10) + 5;
-  const randomLengthNew = Math.floor(Math.random() * 40) + 20;
-  const randomLengthOld = Math.floor(Math.random() * 30) + 10;
-  const randomSequenceNew = generateSequence(randomLengthNew);
-  const randomSequenceOld = generateSequence(randomLengthOld);
-  addTextAnimation(el, randomDur, randomSequenceNew, randomSequenceOld);
-});
+// binaryCodeTextEl.forEach((el) => {
+//   const randomDur = Math.floor(Math.random() * 10) + 5;
+//   const randomLengthNew = Math.floor(Math.random() * 40) + 20;
+//   const randomLengthOld = Math.floor(Math.random() * 30) + 10;
+//   const randomSequenceNew = generateSequence(randomLengthNew);
+//   const randomSequenceOld = generateSequence(randomLengthOld);
+//   addTextAnimation(el, randomDur, randomSequenceNew, randomSequenceOld);
+// });
 binaryCodeShortTextEl.forEach((el) => {
   const randomDur = Math.floor(Math.random() * 10) + 5;
   const randomLengthNew = Math.floor(Math.random() * 18) + 12;
@@ -198,7 +196,8 @@ navBtnEl.addEventListener("click", () => {
   menuBtnEl.classList.toggle("hidden");
   navContainer.classList.toggle("max-[715px]:opacity-0");
   navContainer.classList.toggle("max-[715px]:opacity-1");
-  bodyEl.classList.toggle("overflow-hidden");
+  navContainer.classList.toggle("max-[715px]:pointer-events-none");
+  // bodyEl.classList.toggle("overflow-hidden");
 });
 
 /////////////////////////////////////////////////////////////////////
